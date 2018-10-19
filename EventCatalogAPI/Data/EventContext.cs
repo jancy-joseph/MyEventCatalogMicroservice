@@ -31,7 +31,7 @@ namespace EventCatalogAPI.Data
                 .ForSqlServerUseSequenceHiLo("event_type_hilo");
             builder.Property(c => c.Type)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(200);
 
         }
         public void ConfigureEventTopic(EntityTypeBuilder<EventTopic> builder)
@@ -42,7 +42,7 @@ namespace EventCatalogAPI.Data
                 .ForSqlServerUseSequenceHiLo("event_topic_hilo");
             builder.Property(c => c.Topic)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(200);
 
         }
 
@@ -54,16 +54,16 @@ namespace EventCatalogAPI.Data
                 .ForSqlServerUseSequenceHiLo("event_hilo");
             builder.Property(c => c.Title)
                 .IsRequired()
-                .HasMaxLength(100);
+                .HasMaxLength(200);
             builder.Property(c => c.Location)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(200);
             builder.Property(c => c.StartDate)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(100);
             builder.Property(c => c.EndDate)
                 .IsRequired()
-                .HasMaxLength(50);
+                .HasMaxLength(100);
             builder.Property(c => c.Price)
                 .IsRequired();
 
