@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jancy\\source\\repos\\EventBriteContainers\\EventCatalogAPI\\EventCatalogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jancy\\Desktop\\GitHUB_Folder\\EventCatalogMicroservice\\EventCatalogAPI\\EventCatalogAPI.csproj",
       "projectName": "EventCatalogAPI",
-      "projectPath": "C:\\Users\\jancy\\source\\repos\\EventBriteContainers\\EventCatalogAPI\\EventCatalogAPI.csproj",
+      "projectPath": "C:\\Users\\jancy\\Desktop\\GitHUB_Folder\\EventCatalogMicroservice\\EventCatalogAPI\\EventCatalogAPI.csproj",
       "packagesPath": "C:\\Users\\jancy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jancy\\source\\repos\\EventBriteContainers\\EventCatalogAPI\\obj\\",
+      "outputPath": "C:\\Users\\jancy\\Desktop\\GitHUB_Folder\\EventCatalogMicroservice\\EventCatalogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -2,7 +2,7 @@
 
 namespace EventCatalogAPI.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class IntialMig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
