@@ -1,0 +1,28 @@
+﻿@model WebMvc.Models.CatalogItem
+
+
+
+
+<form asp-controller="Cart" asp-action="AddToCart">
+    <img class="esh-catalog-thumbnail" src="@Model.PictureUrl" />
+    <input class="esh-catalog-button" type="submit" value="[ ADD TO CART ]" />
+    <div class="esh-catalog-name">
+        <span>@Model.Name</span>
+    </div>
+    <div class="esh-catalog-price">
+        <span>@Model.Price.ToString("N2")</span>
+    </div>
+    <input type="hidden" asp-for="@Model.CatalogEventCategory" name="category" />
+    <input type="hidden" asp-for="@Model.CatalogCategoryId" name="categoryId" />
+    <input type="hidden" asp-for="@Model.CatalogEventType" name="type" />
+    <input type="hidden" asp-for="@Model.CatalogTypeId" name="typeId" />
+    <input type="hidden" asp-for="@Model.CatalogEventLocation" name="location" />
+    <input type="hidden" asp-for="@Model.CatalogLocationId" name="locationId" />
+    <input type="hidden" asp-for="@Model.Description" name="description" />
+    <input type="hidden" asp-for="@Model.Id" name="id" />
+    <input type="hidden" asp-for="@Model.Name" name="name" />
+    <input type="hidden" asp-for="@Model.PictureUrl" name="pictureUrl" />
+    <input type="hidden" asp-for="@Model.Price" name="price" />
+    <input type="hidden" asp-for="@Model.Schedule" name="schedule" />
+
+</form>
