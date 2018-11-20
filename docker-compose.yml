@@ -31,7 +31,7 @@ services:
       environment:
          ASPNETCORE_ENVIRONMENT: Development
          CatalogUrl: http://catalog
-         IdentityUrl: http://192.168.0.50:5001
+         IdentityUrl: http://192.168.1.11:5001
          CartUrl: http://cart
          OrderUrl: http://order
       container_name: webshop
